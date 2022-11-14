@@ -1,0 +1,99 @@
+.last-container {
+    
+    width: 90%;
+    max-width: 1250px;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.each-container {
+    background-color: #f8f8ff;
+    display: flex;
+    width: 180px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    
+    
+
+}
+.every-container {
+    
+    display: flex;
+    flex-direction: column;
+   
+    padding: 10px;
+    align-items: center;
+    
+}
+.image-author {
+    width: 45px;
+    height: 40px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.first-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Roboto";
+
+    
+}
+.second-box {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Roboto";
+
+    
+}
+.third-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Roboto";
+
+    
+}
+.language-name{
+    font-size: 16px;
+    text-align: center;
+}
+
+.failure-image-container {
+    height: 400px;
+    width: 400px;
+}
+.paragraph {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Lobster";
+    font-weight: bold;
+}
+@media screen and (min-width: 992px){
+    .last-container{
+        width: 60%;
+    }
+}

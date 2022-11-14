@@ -1,0 +1,36 @@
+.bg-container {
+    min-height: 100vh;
+    max-width: 100%;
+    
+   
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    
+    
+}
+.heading {
+  font-size: 26px;
+   
+  font-weight: bold;
+  color: #0f172a;
+  font-style: oblique;
+}
+.small-container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+ul {
+    padding-left: 0px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
